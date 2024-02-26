@@ -2,7 +2,7 @@
 # In Python we can also return Multiple values
 
 
-def increment(number, by):
+def increment(number: int, by: int) -> tuple:
     return (number, number + by)
 
 
